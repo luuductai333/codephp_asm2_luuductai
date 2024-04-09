@@ -1,0 +1,114 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ff7f00;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #ff7f00;
+    color: white;
+  }
+  
+  .edit-form {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .edit-form h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .info-bar {
+    background-color: #ff7f00;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .info-bar p {
+    margin: 0;
+  }
+  
+  .student-info-table {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .student-info-table table {
+    width: 100%;
+  }
+  
+  .student-info-table th, .student-info-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .student-info-table th {
+    background-color: #ff7f00;
+    color: white;
+  }
+  
+  .student-info-table td {
+    background-color: #fff;
+  }
+  
+  .student-info-table td:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+
+  
